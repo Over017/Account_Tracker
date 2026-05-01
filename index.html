@@ -6,32 +6,25 @@
     <link rel="stylesheet" href="FrontEnd/styles.css">
     <script src="FrontEnd/script.js" defer></script>
     <link rel="icon" href="fotos/icon.png" type="image/png">
-    
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 
     <!-- Primary Meta Tags -->
-<title>Account Tracker</title>
-<meta name="title" content="Account Tracker" />
-<meta name="description" content="Account Tracker es una plataforma que permite verificar en qué sitios web y aplicaciones está registrado tu correo electrónico, ayudándote a tener mayor control y seguridad sobre tu información digital." />
+    <title>Account Tracker</title>
+    <meta name="title" content="Account Tracker" />
+    <meta name="description" content="Account Tracker es una plataforma que permite verificar en qué sitios web y aplicaciones está registrado tu correo electrónico, ayudándote a tener mayor control y seguridad sobre tu información digital." />
 
-
-
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://over017.github.io/Account_Tracker/" />
-<meta property="og:title" content="Account Tracker" />
-<meta property="og:description" content="Account Tracker es una plataforma que permite verificar en qué sitios web y aplicaciones está registrado tu correo electrónico, ayudándote a tener mayor control y seguridad sobre tu información digital." />
-<meta property="og:image" content="https://over017.github.io/Account_Tracker/fotos/icon.png" />
-
-
-
-
-
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://over017.github.io/Account_Tracker/" />
+    <meta property="og:title" content="Account Tracker" />
+    <meta property="og:description" content="Account Tracker es una plataforma que permite verificar en qué sitios web y aplicaciones está registrado tu correo electrónico, ayudándote a tener mayor control y seguridad sobre tu información digital." />
+    <meta property="og:image" content="https://over017.github.io/Account_Tracker/fotos/icon.png" />
 </head>
 <body>
-    
-    <!--NAVBAR-->
 
+    <!-- NAVBAR -->
     <nav>
         <h1>Account Tracker</h1>
         <ul>
@@ -40,32 +33,32 @@
         </ul>
     </nav>
 
-    <!--Hero-->
+    <!-- Hero -->
     <section class="hero">
-        <h2>Descubre dónde está registrado tu correo</h2>
-
+        <div class="hero-badge">🔍 Rastreador de cuentas</div>
+        <h2>Descubre dónde está<br><span class="highlight">registrado tu correo</span></h2>
         <p>Ingresa tu email y visualiza las plataformas asociadas</p>
 
         <div class="search-box">
-
-            <input 
+            <input
                 type="email"
                 id="email"
-                placeholder="Ingresa tu Correo..."
-
-            
+                placeholder="felipe@gmail.com"
             >
-
             <button onclick="buscarCuenta()">
-                buscar...
+                buscar
             </button>
-        
-    </div>
+        </div>
     </section>
 
-    <!-- Resultados-->
-
-    <div id="resultados"></div>
+    <!-- Resultados -->
+    <section id="resultados-section" class="resultados-section hidden">
+        <div class="resultados-header">
+            <p class="resultados-label">Plataformas encontradas</p>
+            <span id="resultados-count" class="badge-count"></span>
+        </div>
+        <div id="resultados" class="resultados-grid"></div>
+    </section>
 
     <!-- CONTACTO -->
     <section class="contact" id="contact">
@@ -74,10 +67,9 @@
         <p>Teléfono: +56 9 1234 5678</p>
     </section>
 
-
     <!-- FOOTER -->
     <footer>
-        © 2026 Account Tracker - <a id="troll001" href="https://www.youtube.com/watch?v=Aq5WXmQQooo" target="_blank">prototipo</a>
+        © 2026 Account Tracker — <a id="troll001" href="https://www.youtube.com/watch?v=Aq5WXmQQooo" target="_blank">prototipo</a>
     </footer>
 </body>
 </html>
