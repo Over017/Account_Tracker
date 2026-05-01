@@ -2,7 +2,7 @@
     {
         "id": 1,
         "email": "chikawa1421@gmail.com",
-        "plataforma": "El Corazon de felipe",
+        "plataforma": "corazon",
         "usuario": "Esposa de felipe",
         "estado": "activa",
         "categoria": "corazon",
@@ -12,36 +12,36 @@
     },
     {
         "id": 2,
-        "email": "",
-        "plataforma": "",
-        "usuario": "",
-        "estado": "",
-        "categoria": "",
-        "ultimo_acceso": "",
+        "email": "felipe@gmail.com",
+        "plataforma": "steam",
+        "usuario": "Over",
+        "estado": "activo",
+        "categoria": "Gaming",
+        "ultimo_acceso": "ayer",
         "2fa": true,
-        "riesgo": ""
+        "riesgo": "bajo"
     },
     {
         "id": 3,
-        "email": "",
-        "plataforma": "",
-        "usuario": "",
-        "estado": "",
-        "categoria": "",
-        "ultimo_acceso": "",
+        "email": "felipe@gmail.com",
+        "plataforma": "discord",
+        "usuario": "Over",
+        "estado": "activa",
+        "categoria": "RRSS",
+        "ultimo_acceso": "hoy",
         "2fa": true,
-        "riesgo": ""
+        "riesgo": "bajo"
     },
     {
         "id": 4,
-        "email": "",
-        "plataforma": "",
-        "usuario": "",
-        "estado": "",
-        "categoria": "",
-        "ultimo_acceso": "",
+        "email": "felipe@gmail.com",
+        "plataforma": "paypal",
+        "usuario": "Over",
+        "estado": "activo",
+        "categoria": "finansas",
+        "ultimo_acceso": "Hace 4 meses",
         "2fa": true,
-        "riesgo": ""
+        "riesgo": "alto"
     }
 
     
