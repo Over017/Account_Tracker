@@ -1,11 +1,48 @@
 [
     {
-        "email": "felipe@gmail.com",
-        "plataforma": "Steam"
+        "id": 1,
+        "email": "chikawa1421@gmail.com",
+        "plataforma": "El Corazon de felipe",
+        "usuario": "Esposa de felipe",
+        "estado": "activa",
+        "categoria": "corazon",
+        "ultimo_acceso": "Hoy",
+        "2fa": true,
+        "riesgo": "bajo"
     },
     {
-        "email": "felipe@gmail.com",
-        "plataforma": "Discord"
+        "id": 2,
+        "email": "",
+        "plataforma": "",
+        "usuario": "",
+        "estado": "",
+        "categoria": "",
+        "ultimo_acceso": "",
+        "2fa": true,
+        "riesgo": ""
+    },
+    {
+        "id": 3,
+        "email": "",
+        "plataforma": "",
+        "usuario": "",
+        "estado": "",
+        "categoria": "",
+        "ultimo_acceso": "",
+        "2fa": true,
+        "riesgo": ""
+    },
+    {
+        "id": 4,
+        "email": "",
+        "plataforma": "",
+        "usuario": "",
+        "estado": "",
+        "categoria": "",
+        "ultimo_acceso": "",
+        "2fa": true,
+        "riesgo": ""
     }
 
+    
 ]

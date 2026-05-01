@@ -19,7 +19,9 @@ const PLATFORM_ICONS = {
     paypal: '💳',
     uber: '🚗',
     airbnb: '🏠',
-    default: '🌐'
+    default: '🌐',
+    corazon: '❤️'
+    
 };
 
 function getPlatformIcon(plataforma) {
