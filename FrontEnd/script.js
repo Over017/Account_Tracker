@@ -11,7 +11,7 @@ async function buscarCuenta() {
     try {
 
         const response = await fetch(
-            `http://127.0.0.1:5000/buscar?email=${email}`
+            `https://account-tracker-56f3.onrender.com/buscar?email=${email}`
         );
 
         const data = await response.json();
