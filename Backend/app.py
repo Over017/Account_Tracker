@@ -6,6 +6,7 @@ app = Flask(__name__)
 CORS(app)
 
 @app.route("/buscar")
+
 def buscar():
 
     email = request.args.get("email")
@@ -16,6 +17,11 @@ def buscar():
     resultados = [c for c in cuentas if c["email"] == email]
 
     return jsonify(resultados)
+
+
+@app.route("/")
+def home():
+    return "API funcionando"
 
 if __name__ == "__main__":
     app.run(debug=True)
