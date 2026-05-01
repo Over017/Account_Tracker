@@ -37,7 +37,7 @@
         "email": "felipe@gmail.com",
         "plataforma": "paypal",
         "usuario": "Over",
-        "estado": "activo",
+        "estado": "inactivo",
         "categoria": "finansas",
         "ultimo_acceso": "Hace 4 meses",
         "2fa": true,
