@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script rel="script.js" defer></script>
-    <link rel="icon" href="fotos/icon.png" type="image/png">
+    <script src="script.js" defer></script>
+    <link rel="icon" href="../fotos/icon.png" type="image/png">
     
 
 
@@ -47,11 +47,25 @@
         <p>Ingresa tu email y visualiza las plataformas asociadas</p>
 
         <div class="search-box">
-        <input type="email" placeholder="Ingresa tu correo...">
-        <button>Buscar</button>
+
+            <input 
+                type="email"
+                id="email"
+                placeholder="Ingresa tu Correo..."
+
+            
+            >
+
+            <button onclick="buscarCuenta()">
+                buscar...
+            </button>
+        
     </div>
     </section>
 
+    <!-- Resultados-->
+
+    <div id="resultados"></div>
 
     <!-- CONTACTO -->
     <section class="contact" id="contact">
