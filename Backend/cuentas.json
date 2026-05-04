@@ -42,6 +42,17 @@
         "ultimo_acceso": "Hace 4 meses",
         "2fa": true,
         "riesgo": "alto"
+    },
+    {
+        "id": 5,
+        "email": "felipe@gmail.com",
+        "plataforma": "pxd",
+        "usuario": "Over",
+        "estado": "inactivo",
+        "categoria": "finansas",
+        "ultimo_acceso": "Hace 4 meses",
+        "2fa": true,
+        "riesgo": "alto"
     }
 
 
