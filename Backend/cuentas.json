@@ -45,14 +45,58 @@
     },
     {
         "id": 5,
-        "email": "felipe@gmail.com",
-        "plataforma": "pxd",
-        "usuario": "Over",
+        "email": "ale.retamal.f@gmail.com",
+        "plataforma": "discord",
+        "usuario": "paltamadurada",
         "estado": "inactivo",
-        "categoria": "finansas",
-        "ultimo_acceso": "Hace 4 meses",
+        "categoria": "RRSS",
+        "ultimo_acceso": "Hace 1 dia",
         "2fa": true,
-        "riesgo": "alto"
+        "riesgo": "bajo"
+    },
+    {
+        "id": 5,
+        "email": "ale.retamal.f@gmail.com",
+        "plataforma": "twitch",
+        "usuario": "pandemanzano",
+        "estado": "inactivo",
+        "categoria": "RRSS",
+        "ultimo_acceso": "Hace 3 meses",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 5,
+        "email": "ale.retamal.f@gmail.com",
+        "plataforma": "instagram",
+        "usuario": "ale_nose_",
+        "estado": "inactivo",
+        "categoria": "RRSS",
+        "ultimo_acceso": "Hace 6 horas",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 5,
+        "email": "ale.retamal.f@gmail.com",
+        "plataforma": "uber",
+        "usuario": "Alejandro",
+        "estado": "inactivo",
+        "categoria": "RRSS",
+        "ultimo_acceso": "Hace 1 dia",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 5,
+        "email": "ale.retamal.f@gmail.com",
+        "plataforma": "youtube",
+        "usuario": "",
+        "estado": "inactivo",
+        "categoria": "RRSS",
+        "ultimo_acceso": "Hace 3 horas",
+        "2fa": true,
+        "riesgo": "bajo"
     }
 
 
