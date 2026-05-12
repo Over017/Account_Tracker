@@ -461,3 +461,8 @@ footer {
     background: #f87171;
     animation: none;
 }
+
+.result-card.clickable:hover {
+    border-color: var(--cyan);
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.1);
+}
