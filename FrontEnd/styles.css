@@ -451,3 +451,13 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+.platform-badge.inactivo {
+    background: rgba(248, 113, 113, 0.08);
+    color: #f87171;
+}
+
+.platform-badge.inactivo::before {
+    background: #f87171;
+    animation: none;
+}

@@ -84,7 +84,11 @@ async function buscarCuenta() {
                     <div class="platform-name">${cuenta.plataforma}</div>
                     <div class="platform-email">${cuenta.email}</div>
                 </div>
-                <div class="platform-badge">Activo</div>
+                <div class="platform-badge ${cuenta.estado === 'activo' || cuenta.estado === 'activa' ? '' : 'inactivo'}">
+                    ${cuenta.estado === 'activo' || cuenta.estado === 'activa' ? 'Activo' : 'Inactivo'}
+                </div>
+
+            
             `;
             resultadosContainer.appendChild(card);
         });
