@@ -92,6 +92,7 @@ async function buscarCuenta() {
                 <div class="platform-info">
                     <div class="platform-name">${cuenta.plataforma}</div>
                     <div class="platform-email">${cuenta.email}</div>
+                    <div class="platform-ultimo-acceso">🕐 ${cuenta.ultimo_acceso}</div>
                 </div>
                 <div class="platform-badge ${cuenta.estado === 'activo' || cuenta.estado === 'activa' ? '' : 'inactivo'}">
                     ${cuenta.estado === 'activo' || cuenta.estado === 'activa' ? 'Activo' : 'Inactivo'}

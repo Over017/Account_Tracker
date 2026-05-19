@@ -466,3 +466,9 @@ footer {
     border-color: var(--cyan);
     box-shadow: 0 0 20px rgba(56, 189, 248, 0.1);
 }
+
+.platform-ultimo-acceso {
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    margin-top: 3px;
+}
