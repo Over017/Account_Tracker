@@ -301,6 +301,15 @@ nav ul li:first-child a:hover {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.platform-name span[title] {
+    font-size: 0.85rem;
+    flex-shrink: 0;
+    cursor: help;
 }
 
 .platform-email {
