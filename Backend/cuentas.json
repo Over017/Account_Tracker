@@ -55,7 +55,7 @@
         "riesgo": "bajo"
     },
     {
-        "id": 5,
+        "id": 6,
         "email": "ale.retamal.f@gmail.com",
         "plataforma": "twitch",
         "usuario": "pandemanzano",
@@ -66,7 +66,7 @@
         "riesgo": "bajo"
     },
     {
-        "id": 5,
+        "id": 7,
         "email": "ale.retamal.f@gmail.com",
         "plataforma": "instagram",
         "usuario": "ale_nose_",
@@ -77,7 +77,7 @@
         "riesgo": "bajo"
     },
     {
-        "id": 5,
+        "id": 8,
         "email": "ale.retamal.f@gmail.com",
         "plataforma": "uber",
         "usuario": "Alejandro",
@@ -88,7 +88,7 @@
         "riesgo": "bajo"
     },
     {
-        "id": 5,
+        "id": 9,
         "email": "ale.retamal.f@gmail.com",
         "plataforma": "youtube",
         "usuario": "",
@@ -109,4 +109,6 @@
         "2fa": true,
         "riesgo": "bajo"
     }
+
 ]
+    
