@@ -97,5 +97,16 @@
         "ultimo_acceso": "Hace 3 horas",
         "2fa": true,
         "riesgo": "bajo"
+    },
+    {
+        "id": 10,
+        "email": "correo@gmial.com",
+        "plataforma": "zoom",
+        "usuario": "",
+        "estado": "inactivo",
+        "categoria": "otros",
+        "ultimo_acceso": "Hace 3 años",
+        "2fa": true,
+        "riesgo": "bajo"
     }
 ]
