@@ -128,7 +128,7 @@ async function buscarCuenta() {
                 <div class="platform-icon">${iconHTML}</div>
                 <div class="platform-info">
                     <div class="platform-name">${cuenta.plataforma}${cuenta['2fa'] ? ' <span title="2FA activado">🔒</span>' : ''}</div>
-                    <div class="platform-email">${cuenta.email}</div>
+                    <div class="platform-usuario">${cuenta.usuario ? cuenta.usuario : cuenta.email}</div>
                     <div class="platform-ultimo-acceso">🕐 ${cuenta.ultimo_acceso}</div>
                 </div>
                 <div class="platform-badge ${cuenta.estado === 'activo' || cuenta.estado === 'activa' ? '' : 'inactivo'}">
