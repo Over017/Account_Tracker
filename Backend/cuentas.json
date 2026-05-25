@@ -91,7 +91,7 @@
         "id": 9,
         "email": "ale.retamal.f@gmail.com",
         "plataforma": "youtube",
-        "usuario": "",
+        "usuario": "Alejandro Retamal",
         "estado": "inactivo",
         "categoria": "RRSS",
         "ultimo_acceso": "Hace 3 horas",
@@ -100,15 +100,81 @@
     },
     {
         "id": 10,
-        "email": "correo@gmial.com",
+        "email": "sufaundez@gmail.com",
+        "plataforma": "tiktok",
+        "usuario": "Susana Faundez",
+        "estado": "activo",
+        "categoria": "RRSS",
+        "ultimo_acceso": "hoy",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 11,
+        "email": "sufaundez@gmail.com",
+        "plataforma": "spotify",
+        "usuario": "Susana Faundez",
+        "estado": "activo",
+        "categoria": "RRSS",
+        "ultimo_acceso": "hoy",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 12,
+        "email": "sufaundez@gmail.com",
+        "plataforma": "facebook",
+        "usuario": "Susana Faundez",
+        "estado": "activo",
+        "categoria": "RRSS",
+        "ultimo_acceso": "Hace 1 dia",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 13,
+        "email": "sufaundez@gmail.com",
+        "plataforma": "whatsapp",
+        "usuario": "Susana Faundez",
+        "estado": "activo",
+        "categoria": "RRSS",
+        "ultimo_acceso": "hoy",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 14,
+        "email": "sufaundez@gmail.com",
+        "plataforma": "youtube",
+        "usuario": "Susana Faundez",
+        "estado": "activo",
+        "categoria": "RRSS",
+        "ultimo_acceso": "Hace 1 meses",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 15,
+        "email": "sufaundez@gmail.com",
         "plataforma": "zoom",
-        "usuario": "",
-        "estado": "inactivo",
-        "categoria": "otros",
-        "ultimo_acceso": "Hace 3 años",
+        "usuario": "Susana Faundez",
+        "estado": "activo",
+        "categoria": "RRSS",
+        "ultimo_acceso": "Hace 4 meses",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 16,
+        "email": "sufaundez@gmail.com",
+        "plataforma": "tiktok",
+        "usuario": "Susana Faundez",
+        "estado": "activo",
+        "categoria": "RRSS",
+        "ultimo_acceso": "hoy",
         "2fa": true,
         "riesgo": "bajo"
     }
-
+    
 ]
     
