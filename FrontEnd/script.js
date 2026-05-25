@@ -105,6 +105,7 @@ async function buscarCuenta() {
         }
 
         badgeCount.textContent = data.length;
+        mostrarTutorial();
 
         data.forEach((cuenta, index) => {
             const platformData = getPlatformData(cuenta.plataforma);
@@ -149,8 +150,24 @@ async function buscarCuenta() {
     }
 }
 
+function mostrarTutorial() {
+    if (localStorage.getItem('tutorial_visto')) return;
+    document.getElementById('tutorial-overlay').classList.remove('hidden');
+}
+
+function cerrarTutorial() {
+    document.getElementById('tutorial-overlay').classList.add('hidden');
+    localStorage.setItem('tutorial_visto', '1');
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("email").addEventListener("keydown", (e) => {
         if (e.key === "Enter") buscarCuenta();
+    });
+
+    document.getElementById("tutorial-close").addEventListener("click", cerrarTutorial);
+    document.getElementById("tutorial-ok").addEventListener("click", cerrarTutorial);
+    document.getElementById("tutorial-overlay").addEventListener("click", (e) => {
+        if (e.target === document.getElementById("tutorial-overlay")) cerrarTutorial();
     });
 });

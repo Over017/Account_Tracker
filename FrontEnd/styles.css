@@ -490,3 +490,132 @@ footer {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+/* TUTORIAL POPUP */
+.tutorial-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(6, 13, 26, 0.8);
+    backdrop-filter: blur(6px);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    animation: fadeIn 0.3s ease both;
+}
+
+.tutorial-overlay.hidden {
+    display: none;
+}
+
+.tutorial-box {
+    background: var(--bg-card);
+    border: 1px solid var(--cyan);
+    border-radius: 20px;
+    padding: 32px;
+    max-width: 440px;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 40px rgba(56, 189, 248, 0.15), 0 20px 60px rgba(0, 0, 0, 0.5);
+    animation: slideUp 0.35s ease both;
+}
+
+.tutorial-close {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    font-size: 1.5rem;
+    line-height: 1;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 6px;
+    transition: color 0.2s, background 0.2s;
+}
+
+.tutorial-close:hover {
+    color: var(--cyan);
+    background: var(--cyan-glow);
+}
+
+.tutorial-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.tutorial-icon {
+    font-size: 1.4rem;
+}
+
+.tutorial-header h3 {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.95rem;
+    color: var(--cyan);
+    letter-spacing: 0.03em;
+}
+
+.tutorial-tips {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 28px;
+}
+
+.tutorial-tips li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.tip-icon {
+    font-size: 1.1rem;
+    flex-shrink: 0;
+    margin-top: 1px;
+}
+
+.tutorial-tips strong {
+    color: var(--text-main);
+}
+
+.badge-inactivo-demo {
+    color: #f87171;
+}
+
+.tutorial-ok {
+    width: 100%;
+    background: var(--cyan);
+    border: none;
+    padding: 12px 24px;
+    color: var(--bg-deep);
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Space Mono', monospace;
+    transition: background 0.2s ease;
+}
+
+.tutorial-ok:hover {
+    background: var(--cyan-dark);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(20px) scale(0.97); }
+    to   { opacity: 1; transform: translateY(0) scale(1); }
+}

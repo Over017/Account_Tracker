@@ -72,5 +72,35 @@
     <footer>
         © 2059 Account Tracker — <a id="troll001" href="https://www.youtube.com/watch?v=Aq5WXmQQooo" target="_blank">prototipo</a>
     </footer>
+
+    <!-- TUTORIAL POPUP -->
+    <div id="tutorial-overlay" class="tutorial-overlay hidden">
+        <div class="tutorial-box">
+            <button id="tutorial-close" class="tutorial-close" aria-label="Cerrar tutorial">&times;</button>
+            <div class="tutorial-header">
+                <span class="tutorial-icon">💡</span>
+                <h3>¿Cómo usar Account Tracker?</h3>
+            </div>
+            <ul class="tutorial-tips">
+                <li>
+                    <span class="tip-icon">📧</span>
+                    <span>Ingresa tu <strong>correo electrónico</strong> en el buscador para encontrar tus cuentas registradas.</span>
+                </li>
+                <li>
+                    <span class="tip-icon">🖱️</span>
+                    <span>Haz <strong>clic en una tarjeta</strong> para ir directamente a esa plataforma.</span>
+                </li>
+                <li>
+                    <span class="tip-icon">🔒</span>
+                    <span>El candado <strong>🔒</strong> junto al nombre indica que la cuenta tiene <strong>2FA activado</strong>.</span>
+                </li>
+                <li>
+                    <span class="tip-icon">🔴</span>
+                    <span>Las tarjetas con el badge <strong class="badge-inactivo-demo">Inactivo</strong> corresponden a cuentas inactivas.</span>
+                </li>
+            </ul>
+            <button id="tutorial-ok" class="tutorial-ok">¡Entendido!</button>
+        </div>
+    </div>
 </body>
 </html>
