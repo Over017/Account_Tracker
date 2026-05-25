@@ -152,12 +152,15 @@ async function buscarCuenta() {
 
 function mostrarTutorial() {
     if (localStorage.getItem('tutorial_visto')) return;
+    document.getElementById('tutorial-checkbox').checked = false;
     document.getElementById('tutorial-overlay').classList.remove('hidden');
 }
 
 function cerrarTutorial() {
+    if (document.getElementById('tutorial-checkbox').checked) {
+        localStorage.setItem('tutorial_visto', '1');
+    }
     document.getElementById('tutorial-overlay').classList.add('hidden');
-    localStorage.setItem('tutorial_visto', '1');
 }
 
 document.addEventListener("DOMContentLoaded", () => {
