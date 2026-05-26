@@ -174,7 +174,29 @@
         "ultimo_acceso": "hoy",
         "2fa": true,
         "riesgo": "bajo"
+    },
+    {
+        "id": 17,
+        "email": "cristobal.castro374@gmail.com",
+        "plataforma": "youtube",
+        "usuario": "Cristobal Castro",
+        "estado": "activo",
+        "categoria": "RRSS",
+        "ultimo_acceso": "Hace 6 meses",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 18,
+        "email": "cristobal.castro374@gmail.com",
+        "plataforma": "zoom",
+        "usuario": "Cristobal Castro",
+        "estado": "inactivo",
+        "categoria": "otros",
+        "ultimo_acceso": "Hace 2 años",
+        "2fa": true,
+        "riesgo": "bajo"
     }
-    
+
 ]
     
