@@ -2,11 +2,11 @@
     {
         "id": 1,
         "email": "chikawa1421@gmail.com",
-        "plataforma": "corazon",
-        "usuario": "Esposa de felipe",
+        "plataforma": "gmail",
+        "usuario": "",
         "estado": "activo",
-        "categoria": "corazon",
-        "ultimo_acceso": "Hoy",
+        "categoria": "otros",
+        "ultimo_acceso": "hoy",
         "2fa": true,
         "riesgo": "bajo"
     },
@@ -304,6 +304,84 @@
         "estado": "inactivo",
         "categoria": "otros",
         "ultimo_acceso": "hoy",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+
+    {
+        "id": 28,
+        "email": "chikawa1421@gmail.com",
+        "plataforma": "instagram",
+        "usuario": "trxfas",
+        "estado": "activo",
+        "categoria": "Redes Sociales",
+        "ultimo_acceso": "Hoy",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 29,
+        "email": "chikawa1421@gmail.com",
+        "plataforma": "gmail",
+        "usuario": "",
+        "estado": "activo",
+        "categoria": "Redes Sociales",
+        "ultimo_acceso": "Hoy",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 30,
+        "email": "chikawa1421@gmail.com",
+        "plataforma": "discord",
+        "usuario": "conitam",
+        "estado": "activo",
+        "categoria": "Mensajería",
+        "ultimo_acceso": "Hoy",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 31,
+        "email": "chikawa1421@gmail.com",
+        "plataforma": "duolingo",
+        "usuario": "conitam",
+        "estado": "activo",
+        "categoria": "Apps",
+        "ultimo_acceso": "Hoy",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 32,
+        "email": "chikawa1421@gmail.com",
+        "plataforma": "steam",
+        "usuario": "trufita",
+        "estado": "activo",
+        "categoria": "Gaming",
+        "ultimo_acceso": "Hace 1 semana",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 33,
+        "email": "chikawa1421@gmail.com",
+        "plataforma": "minecraft",
+        "usuario": "trufita",
+        "estado": "activo",
+        "categoria": "Gaming",
+        "ultimo_acceso": "Hace 4 meses",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 34,
+        "email": "chikawa1421@gmail.com",
+        "plataforma": "roblox",
+        "usuario": "trufita",
+        "estado": "activo",
+        "categoria": "Gaming",
+        "ultimo_acceso": "Hace 4 meses",
         "2fa": true,
         "riesgo": "bajo"
     }
