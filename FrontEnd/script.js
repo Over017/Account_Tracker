@@ -55,7 +55,6 @@ const PLATFORM_ICONS = {
     airbnb: { icon: 'https://www.google.com/s2/favicons?domain=airbnb.com&sz=64', url: 'https://airbnb.com' },
     // Bancos
     banco_estado: { icon: 'https://www.google.com/s2/favicons?domain=bancoestado.cl&sz=64', url: 'https://www.bancoestado.cl' },
-    bancoestado: { icon: 'https://www.google.com/s2/favicons?domain=bancoestado.cl&sz=64', url: 'https://www.bancoestado.cl' },
     // Otros
     gmail: { icon: 'https://www.google.com/s2/favicons?domain=gmail.com&sz=64', url: 'https://gmail.com' },
     zoom: { icon: 'https://www.google.com/s2/favicons?domain=zoom.us&sz=64', url: 'https://zoom.us' },
