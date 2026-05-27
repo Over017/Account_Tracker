@@ -2,12 +2,12 @@
     {
         "id": 1,
         "email": "chikawa1421@gmail.com",
-        "plataforma": "gmail",
+        "plataforma": "twitch",
         "usuario": "",
         "estado": "activo",
         "categoria": "otros",
         "ultimo_acceso": "hoy",
-        "2fa": true,
+        "2fa": false,
         "riesgo": "bajo"
     },
     {
