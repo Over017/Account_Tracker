@@ -60,7 +60,7 @@
         "plataforma": "twitch",
         "usuario": "pandemanzano",
         "estado": "inactivo",
-        "categoria": "Redes Sociales",
+        "categoria": "Streaming",
         "ultimo_acceso": "Hace 3 meses",
         "2fa": true,
         "riesgo": "bajo"
@@ -93,7 +93,7 @@
         "plataforma": "youtube",
         "usuario": "Alejandro Retamal",
         "estado": "inactivo",
-        "categoria": "Redes Sociales",
+        "categoria": "Streaming",
         "ultimo_acceso": "Hace 3 horas",
         "2fa": true,
         "riesgo": "bajo"
@@ -115,7 +115,7 @@
         "plataforma": "spotify",
         "usuario": "Susana Faundez",
         "estado": "activo",
-        "categoria": "Redes Sociales",
+        "categoria": "Streaming",
         "ultimo_acceso": "hoy",
         "2fa": true,
         "riesgo": "bajo"
@@ -148,7 +148,7 @@
         "plataforma": "youtube",
         "usuario": "Susana Faundez",
         "estado": "activo",
-        "categoria": "Redes Sociales",
+        "categoria": "Streaming",
         "ultimo_acceso": "Hace 1 mes",
         "2fa": true,
         "riesgo": "bajo"
@@ -181,7 +181,7 @@
         "plataforma": "youtube",
         "usuario": "Cristobal Castro",
         "estado": "activo",
-        "categoria": "Redes Sociales",
+        "categoria": "Streaming",
         "ultimo_acceso": "Hace 6 meses",
         "2fa": true,
         "riesgo": "bajo"
@@ -381,10 +381,143 @@
         "usuario": "trufita",
         "estado": "activo",
         "categoria": "Gaming",
-        "ultimo_acceso": "Hace 4 meses",
+        "ultimo_acceso": "ayer",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 35,
+        "email": "carolinaandrea.nelson@gmail.com",
+        "plataforma": "facebook",
+        "usuario": "",
+        "estado": "activo",
+        "categoria": "Redes Sociales",
+        "ultimo_acceso": "ayer",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 36,
+        "email": "carolinaandrea.nelson@gmail.com",
+        "plataforma": "tiktok",
+        "usuario": "trufita",
+        "estado": "activo",
+        "categoria": "Redes Sociales",
+        "ultimo_acceso": "hoy",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 37,
+        "email": "carolinaandrea.nelson@gmail.com",
+        "plataforma": "instagram",
+        "usuario": "",
+        "estado": "activo",
+        "categoria": "Redes Sociales",
+        "ultimo_acceso": "hoy",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 38,
+        "email": "carolinaandrea.nelson@gmail.com",
+        "plataforma": "youtube",
+        "usuario": "",
+        "estado": "activo",
+        "categoria": "Streaming",
+        "ultimo_acceso": "hoy",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 39,
+        "email": "c.andres.villagra@gmail.com",
+        "plataforma": "instagram",
+        "usuario": "",
+        "estado": "activo",
+        "categoria": "Redes Sociales",
+        "ultimo_acceso": "hoy",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 40,
+        "email": "c.andres.villagra@gmail.com",
+        "plataforma": "tiktok",
+        "usuario": "",
+        "estado": "activo",
+        "categoria": "Redes Sociales",
+        "ultimo_acceso": "hoy",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 41,
+        "email": "c.andres.villagra@gmail.com",
+        "plataforma": "steam",
+        "usuario": "",
+        "estado": "activo",
+        "categoria": "Gaming",
+        "ultimo_acceso": "hoy",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 42,
+        "email": "c.andres.villagra@gmail.com",
+        "plataforma": "discord",
+        "usuario": "",
+        "estado": "activo",
+        "categoria": "Mensajería",
+        "ultimo_acceso": "hoy",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 43,
+        "email": "c.andres.villagra@gmail.com",
+        "plataforma": "youtube",
+        "usuario": "",
+        "estado": "activo",
+        "categoria": "Streaming",
+        "ultimo_acceso": "ayer",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 44,
+        "email": "R.m.tapia1971@gmail.com",
+        "plataforma": "tiktok",
+        "usuario": "",
+        "estado": "activo",
+        "categoria": "Redes Sociales",
+        "ultimo_acceso": "hoy",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 45,
+        "email": "R.m.tapia1971@gmail.com",
+        "plataforma": "facebook",
+        "usuario": "",
+        "estado": "activo",
+        "categoria": "Redes Sociales",
+        "ultimo_acceso": "hoy",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 46,
+        "email": "R.m.tapia1971@gmail.com",
+        "plataforma": "youtube",
+        "usuario": "",
+        "estado": "activo",
+        "categoria": "Streaming",
+        "ultimo_acceso": "hoy",
         "2fa": true,
         "riesgo": "bajo"
     }
+    
 
 ]
     
