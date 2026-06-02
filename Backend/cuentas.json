@@ -605,7 +605,127 @@
         "ultimo_acceso": "hoy",
         "2fa": true,
         "riesgo": "bajo"
+    },
+    {
+        "id": 55,
+        "email": "claudioretamalturbo@gmail.com",
+        "plataforma": "youtube",
+        "usuario": "",
+        "estado": "activo",
+        "categoria": "Streaming",
+        "ultimo_acceso": "hace 3 dias",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 56,
+        "email": "claudioretamalturbo@gmail.com",
+        "plataforma": "tiktok",
+        "usuario": "Claudio Turbo",
+        "estado": "activo",
+        "categoria": "redes sociales",
+        "ultimo_acceso": "hoy",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 57,
+        "email": "claudioretamalturbo@gmail.com",
+        "plataforma": "whatsapp",
+        "usuario": "Claudio Retamal",
+        "estado": "activo",
+        "categoria": "Mensajería",
+        "ultimo_acceso": "hoy",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 58,
+        "email": "claudioretamalturbo@gmail.com",
+        "plataforma": "facebook",
+        "usuario": "Claudio Retamal",
+        "estado": "inactivo",
+        "categoria": "Redes Sociales",
+        "ultimo_acceso": "ayer",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 59,
+        "email": "claudioretamalturbo@gmail.com",
+        "plataforma": "youtube",
+        "usuario": "Claudio Turbo",
+        "estado": "activo",
+        "categoria": "Streaming",
+        "ultimo_acceso": "hoy",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 60,
+        "email": "e.aliagamu@gmail.com",
+        "plataforma": "youtube",
+        "usuario": "Elizabeth Aliaga",
+        "estado": "activo",
+        "categoria": "Streaming",
+        "ultimo_acceso": "hoy",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 61,
+        "email": "e.aliagamu@gmail.com",
+        "plataforma": "tiktok",
+        "usuario": "User31731804318",
+        "estado": "activo",
+        "categoria": "Redes Sociales",
+        "ultimo_acceso": "hoy",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 62,
+        "email": "e.aliagamu@gmail.com",
+        "plataforma": "instagram",
+        "usuario": "Elizabeth Aliaga",
+        "estado": "activo",
+        "categoria": "Redes Sociales",
+        "ultimo_acceso": "hoy",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 63,
+        "email": "e.aliagamu@gmail.com",
+        "plataforma": "Disney+",
+        "usuario": "Elizabeth",
+        "estado": "activo",
+        "categoria": "Streaming",
+        "ultimo_acceso": "ayer",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 64,
+        "email": "e.aliagamu@gmail.com",
+        "plataforma": "hbo max",
+        "usuario": "Elizabeth",
+        "estado": "activo",
+        "categoria": "Streaming",
+        "ultimo_acceso": "hace 2 dias",
+        "2fa": true,
+        "riesgo": "bajo"
+    },
+    {
+        "id": 65,
+        "email": "e.aliagamu@gmail.com",
+        "plataforma": "facebook",
+        "usuario": "Elizabeth Aliaga",
+        "estado": "activo",
+        "categoria": "Redes Sociales",
+        "ultimo_acceso": "3 semanas",
+        "2fa": false,
+        "riesgo": "alto"
     }
-
 ]
     
