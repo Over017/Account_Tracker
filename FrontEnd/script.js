@@ -188,13 +188,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const btn = document.getElementById('theme-btn');
     if (btn) btn.textContent = savedTheme === 'dark' ? '☀️ Modo claro' : '🌙 Modo oscuro';
 
-    document.getElementById("email").addEventListener("keydown", (e) => {
+    document.getElementById("email")?.addEventListener("keydown", (e) => {
         if (e.key === "Enter") buscarCuenta();
     });
 
-    document.getElementById("tutorial-close").addEventListener("click", cerrarTutorial);
-    document.getElementById("tutorial-ok").addEventListener("click", cerrarTutorial);
-    document.getElementById("tutorial-overlay").addEventListener("click", (e) => {
+    document.getElementById("tutorial-close")?.addEventListener("click", cerrarTutorial);
+    document.getElementById("tutorial-ok")?.addEventListener("click", cerrarTutorial);
+    document.getElementById("tutorial-overlay")?.addEventListener("click", (e) => {
         if (e.target === document.getElementById("tutorial-overlay")) cerrarTutorial();
     });
 });

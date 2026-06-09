@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="FrontEnd/styles.css">
+    <script src="FrontEnd/script.js" defer></script>
+    <link rel="icon" href="fotos/icon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>FAQ — Account Tracker</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <h1>Account Tracker</h1>
+        <ul>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="index.html#contact">Contacto</a></li>
+        </ul>
+        <button class="theme-toggle" onclick="toggleTheme()" id="theme-btn">
+            ☀️ Modo claro
+        </button>
+    </nav>
+
+    <!-- FAQ -->
+    <section class="faq-section">
+        <h2 class="faq-title"><span class="highlight">Preguntas frecuentes</span></h2>
+        <div class="faq-list">
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    ¿Qué es Account Tracker?
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Es una herramienta que te permite consultar en qué plataformas está registrado un correo electrónico, ayudándote a tener control sobre tu huella digital.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    ¿Cómo funciona la búsqueda?
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Ingresa tu correo en el buscador y el sistema consultará nuestra base de datos para mostrarte las plataformas asociadas a ese email.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    ¿Mis datos están seguros?
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Sí. No almacenamos las búsquedas realizadas. Solo consultamos información ya registrada en nuestra base de datos.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    ¿Por qué la búsqueda tarda varios segundos la primera vez?
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>El servidor backend usa un plan gratuito que entra en reposo cuando no recibe tráfico. La primera consulta del día puede tardar entre 30 y 60 segundos en despertar. Las siguientes son inmediatas.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    ¿Qué significa el ícono 🔒 en una cuenta?
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Indica que esa cuenta tiene autenticación de dos factores (2FA) activada, lo que añade una capa extra de seguridad.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    ¿Qué significa el badge rojo "Inactivo"?
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Que esa cuenta no ha registrado actividad reciente. Te recomendamos revisarla o eliminarla si ya no la usas.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    ¿Puedo agregar mis propias cuentas?
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Por ahora no. Account Tracker es una herramienta de consulta. En futuras versiones se planea permitir la gestión de cuentas propias.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    ¿Con quién me contacto si tengo un problema?
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Puedes escribirnos a kuakas02@gmail.com o llamar al +56 9 4908 0744.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2059 Account Tracker — <a id="troll001" href="https://www.youtube.com/watch?v=Aq5WXmQQooo" target="_blank">prototipo</a>
+    </footer>
+
+    <script>
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+        const btn = document.getElementById('theme-btn');
+        if (btn) btn.textContent = savedTheme === 'dark' ? '☀️ Modo claro' : '🌙 Modo oscuro';
+
+        function toggleTheme() {
+            const html = document.documentElement;
+            const btn = document.getElementById('theme-btn');
+            const isDark = html.getAttribute('data-theme') === 'dark';
+            if (isDark) {
+                html.setAttribute('data-theme', 'light');
+                btn.textContent = '🌙 Modo oscuro';
+                localStorage.setItem('theme', 'light');
+            } else {
+                html.setAttribute('data-theme', 'dark');
+                btn.textContent = '☀️ Modo claro';
+                localStorage.setItem('theme', 'dark');
+            }
+        }
+
+        document.querySelectorAll('.faq-question').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                const answer = btn.nextElementSibling;
+                const icon = btn.querySelector('.faq-icon');
+                const isOpen = answer.classList.contains('open');
+                document.querySelectorAll('.faq-answer').forEach(function(a) { a.classList.remove('open'); });
+                document.querySelectorAll('.faq-icon').forEach(function(i) { i.classList.remove('open'); });
+                if (!isOpen) {
+                    answer.classList.add('open');
+                    icon.classList.add('open');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
