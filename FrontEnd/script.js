@@ -108,7 +108,6 @@ async function buscarCuenta() {
         }
 
         badgeCount.textContent = data.length;
-        mostrarTutorial();
 
         data.forEach((cuenta, index) => {
             const platformData = getPlatformData(cuenta.plataforma);
@@ -183,6 +182,8 @@ function toggleTheme() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+    mostrarTutorial();
+
     const savedTheme = localStorage.getItem('theme') || 'dark';
     document.documentElement.setAttribute('data-theme', savedTheme);
     const btn = document.getElementById('theme-btn');
