@@ -179,7 +179,7 @@ nav ul li:first-child a:hover {
     color: var(--text-main);
     font-size: 0.95rem;
     outline: none;
-    font-family: 'Space Mono', monospace;
+    font-family: sans-serif,;
     font-size: 0.85rem;
 }
 
