@@ -8,6 +8,22 @@
 
 /* VARIABLES */
 :root {
+    --cyan: #0284c7;
+    --cyan-dark: #0369a1;
+    --cyan-glow: rgba(2, 132, 199, 0.10);
+    --cyan-border: rgba(2, 132, 199, 0.20);
+    --bg-deep: #f0f8ff;
+    --bg-base: #e8f4fd;
+    --bg-card: #ffffff;
+    --bg-card-hover: #f0f8ff;
+    --text-main: #0f172a;
+    --text-muted: #334155;
+    --text-dim: #64748b;
+    --success: #16a34a;
+    --success-bg: rgba(22, 163, 74, 0.08);
+}
+
+[data-theme="dark"] {
     --cyan: #38bdf8;
     --cyan-dark: #0ea5e9;
     --cyan-glow: rgba(56, 189, 248, 0.15);
@@ -36,7 +52,7 @@ body::before {
     content: '';
     position: fixed;
     inset: 0;
-    background-image: radial-gradient(circle, rgba(56,189,248,0.04) 1px, transparent 1px);
+    background-image: radial-gradient(circle, rgba(2, 132, 199, 0.06) 1px, transparent 1px);
     background-size: 32px 32px;
     pointer-events: none;
     z-index: 0;
@@ -50,7 +66,7 @@ nav {
     padding: 18px 40px;
     position: sticky;
     top: 0;
-    background: rgba(6, 13, 26, 0.85);
+    background: rgba(240, 248, 255, 0.90);
     backdrop-filter: blur(16px);
     border-bottom: 1px solid var(--cyan-border);
     z-index: 100;
@@ -116,7 +132,7 @@ nav ul li:first-child a:hover {
     transform: translate(-50%, -60%);
     width: 600px;
     height: 400px;
-    background: radial-gradient(ellipse, rgba(56,189,248,0.08) 0%, transparent 70%);
+    background: radial-gradient(ellipse, rgba(2, 132, 199, 0.06) 0%, transparent 70%);
     pointer-events: none;
 }
 
@@ -156,7 +172,7 @@ nav ul li:first-child a:hover {
 /* BUSCADOR */
 .search-box {
     display: flex;
-    background: rgba(255,255,255,0.04);
+    background: rgba(0, 0, 0, 0.03);
     border: 1px solid var(--cyan-border);
     border-radius: 14px;
     overflow: hidden;
@@ -225,7 +241,7 @@ nav ul li:first-child a:hover {
     gap: 12px;
     margin-bottom: 24px;
     padding-bottom: 16px;
-    border-bottom: 1px solid rgba(56,189,248,0.1);
+    border-bottom: 1px solid rgba(2, 132, 199, 0.12);
 }
 
 .resultados-label {
@@ -257,7 +273,7 @@ nav ul li:first-child a:hover {
 /* CARD DE RESULTADO */
 .result-card {
     background: var(--bg-card);
-    border: 1px solid rgba(56,189,248,0.1);
+    border: 1px solid rgba(2, 132, 199, 0.12);
     border-radius: 16px;
     padding: 22px;
     display: flex;
@@ -380,7 +396,7 @@ nav ul li:first-child a:hover {
     text-align: center;
     position: relative;
     z-index: 1;
-    border-top: 1px solid rgba(56,189,248,0.08);
+    border-top: 1px solid rgba(2, 132, 199, 0.12);
 }
 
 .contact h3 {
@@ -402,7 +418,7 @@ nav ul li:first-child a:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background: rgba(0,0,0,0.3);
+    background: rgba(0, 0, 0, 0.04);
     border-top: 1px solid rgba(56,189,248,0.06);
     font-size: 0.8rem;
     color: var(--text-dim);
@@ -437,6 +453,53 @@ footer {
 @keyframes pulse {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.4; }
+}
+
+/* DARK MODE — hardcoded color overrides */
+[data-theme="dark"] body::before {
+    background-image: radial-gradient(circle, rgba(56, 189, 248, 0.04) 1px, transparent 1px);
+}
+
+[data-theme="dark"] nav {
+    background: rgba(6, 13, 26, 0.85);
+}
+
+[data-theme="dark"] .hero::before {
+    background: radial-gradient(ellipse, rgba(56, 189, 248, 0.08) 0%, transparent 70%);
+}
+
+[data-theme="dark"] .search-box {
+    background: rgba(255, 255, 255, 0.04);
+}
+
+[data-theme="dark"] footer {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .result-card {
+    border: 1px solid rgba(56, 189, 248, 0.1);
+}
+
+/* THEME TOGGLE */
+.theme-toggle {
+    background: var(--cyan-glow);
+    border: 1px solid var(--cyan-border);
+    border-radius: 20px;
+    padding: 6px 14px;
+    color: var(--cyan);
+    font-family: 'Space Mono', monospace;
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+}
+
+.theme-toggle:hover {
+    background: var(--cyan);
+    color: var(--bg-deep);
 }
 
 /* RESPONSIVE */

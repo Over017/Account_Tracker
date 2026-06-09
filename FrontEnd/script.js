@@ -166,7 +166,28 @@ function cerrarTutorial() {
     document.getElementById('tutorial-overlay').classList.add('hidden');
 }
 
+function toggleTheme() {
+    const html = document.documentElement;
+    const btn = document.getElementById('theme-btn');
+    const isDark = html.getAttribute('data-theme') === 'dark';
+
+    if (isDark) {
+        html.setAttribute('data-theme', 'light');
+        btn.textContent = '🌙 Modo oscuro';
+        localStorage.setItem('theme', 'light');
+    } else {
+        html.setAttribute('data-theme', 'dark');
+        btn.textContent = '☀️ Modo claro';
+        localStorage.setItem('theme', 'dark');
+    }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    const btn = document.getElementById('theme-btn');
+    if (btn) btn.textContent = savedTheme === 'dark' ? '☀️ Modo claro' : '🌙 Modo oscuro';
+
     document.getElementById("email").addEventListener("keydown", (e) => {
         if (e.key === "Enter") buscarCuenta();
     });
